@@ -30,7 +30,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="search-content">
-                    <form action="#" method="get">
+                    <form action="#" method="post">
                         <input type="search" name="search" id="search" placeholder="Type your keyword...">
                         <button type="submit"><img src="{{asset('frontend/img/core-img/search.png')}}" alt=""></button>
                     </form>
@@ -48,7 +48,7 @@
     <div class="mobile-nav">
         <!-- Navbar Brand -->
         <div class="amado-navbar-brand">
-            <a href="index.html"><img src="{{asset('frontend/img/core-img/logo.png')}}" alt=""></a>
+            <a href="index"><img src="{{asset('frontend/img/core-img/logo.png')}}" alt=""></a>
         </div>
         <!-- Navbar Toggler -->
         <div class="amado-navbar-toggler">
@@ -64,34 +64,34 @@
         </div>
         <!-- Logo -->
         <div class="logo">
-            <a href="index.html"><img src="{{asset('frontend/img/core-img/logo.png')}}" alt=""></a>
+            <a href="index"><img src="{{asset('frontend/img/core-img/logo.png')}}" alt=""></a>
         </div>
         <!-- Amado Nav -->
         <nav class="amado-nav">
             <ul>
-                <li class="active"><a href="/index">Home</a></li>
-                <li><a href="/shop">Shop</a></li>
-                <li><a href="/product-details">Product</a></li>
-                <li><a href="/cart">Cart</a></li>
-                <li><a href="/checkout">Checkout</a></li>
+                <li class={{ Request::is('index')? 'active' : '' }}><a href="/index">Home</a></li>
+                <li class={{ Request::is('shop')? 'active' : '' }}><a href="/shop">Shop</a></li>
+                <li class={{ Request::is('product-details')? 'active' : '' }}><a href="/product-details">Product</a></li>
+                <li class={{ Request::is('cart')? 'active' : '' }}><a href="/cart">Cart</a></li>
+                <li class={{ Request::is('checkout')? 'active' : '' }}><a href="/checkout">Checkout</a></li>
             </ul>
         </nav>
         <!-- Button Group -->
         <div class="amado-btn-group mt-30 mb-100">
-            <a href="#" class="btn amado-btn mb-15">%Discount%</a>
-            <a href="#" class="btn amado-btn active">New this week</a>
+            <a href="shop" class="btn amado-btn mb-15">%Discount%</a>
+            <a href="shop" class="btn amado-btn active">New this week</a>
         </div>
         <!-- Cart Menu -->
         <div class="cart-fav-search mb-100">
-            <a href="cart.html" class="cart-nav"><img src="{{asset('frontend/img/core-img/cart.png')}}" alt=""> Cart <span>(0)</span></a>
-            <a href="#" class="fav-nav"><img src="{{asset('frontend/img/core-img/favorites.png')}}" alt=""> Favourite</a>
-            <a href="#" class="search-nav"><img src="{{asset('frontend/img/core-img/search.png')}}" alt=""> Search</a>
+            <a href="cart" class="cart-nav"><img src="{{asset('frontend/img/core-img/cart.png')}}" alt=""> Cart <span>(0)</span></a>
+            <a href="cart" class="fav-nav"><img src="{{asset('frontend/img/core-img/favorites.png')}}" alt=""> Favourite</a>
+            <a href="checkout" class="search-nav"><img src="{{asset('frontend/img/core-img/search.png')}}" alt=""> Search</a>
         </div>
         <!-- Social Button -->
         <div class="social-info d-flex justify-content-between">
-            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.pinterest.com/pankajan05/"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/pankajan05_/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/pankajan.satkunam.5"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         </div>
     </header>
@@ -153,20 +153,20 @@
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#footerNavContent" aria-controls="footerNavContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
                             <div class="collapse navbar-collapse" id="footerNavContent">
                                 <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="index.html">Home</a>
+                                    <li class="nav-item {{ Request::is('index') ? 'active' : '' }}">
+                                        <a class="nav-link" href="/index">Home</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="shop.html">Shop</a>
+                                    <li class="nav-item {{ Request::is('shop')? 'active' : '' }}">
+                                        <a class="nav-link" href="/shop">Shop</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="product-details.html">Product</a>
+                                    <li class="nav-item {{ Request::is('product-details')? 'active' : '' }}">
+                                        <a class="nav-link" href="/product-details">Product</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="cart.html">Cart</a>
+                                    <li class="nav-item {{ Request::is('cart')? 'active' : '' }}">
+                                        <a class="nav-link" href="/cart">Cart</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="checkout.html">Checkout</a>
+                                    <li class="nav-item {{ Request::is('checkout')? 'active' : '' }}">
+                                        <a class="nav-link" href="/checkout">Checkout</a>
                                     </li>
                                 </ul>
                             </div>

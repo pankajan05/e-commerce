@@ -12,8 +12,9 @@
 */
 
 Route::get('/', 'PageController@home');
-Route::get('/home', 'PageController@home');
+Route::get('/index', 'PageController@home');
+
 Route::get('/shop', 'PageController@shop');
-Route::get('/product-detail', 'PageController@detail');
+Route::get('/product-details', 'PageController@detail');
 Route::get('/cart', 'PageController@cart');
 Route::get('/checkout', 'PageController@checkout');

@@ -19,7 +19,7 @@ class PageController extends Controller
     }
 
     public function detail(){
-        return view('pages.product-detail');
+        return view('pages.product_details');
     }
 
     public function checkout(){
