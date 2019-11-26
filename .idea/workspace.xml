@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27d77b3b-9b80-4177-97dc-9f329970c35c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/CircularStd-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/CircularStd-BlackItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/CircularStd-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/CircularStd-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/CircularStd-Book.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/CircularStd-BookItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/CircularStd-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/CircularStd-MediumItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/js/main-js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/e-commerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/e-commerce.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/scss/_mixin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/scss/_responsive.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/scss/_theme_color.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="27d77b3b-9b80-4177-97dc-9f329970c35c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569407307966</updated>
-      <workItem from="1569407318615" duration="4053000" />
+      <workItem from="1569407318615" duration="4725000" />
     </task>
     <servers />
   </component>
